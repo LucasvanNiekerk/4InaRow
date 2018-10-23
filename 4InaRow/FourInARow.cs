@@ -205,7 +205,7 @@ namespace _4InaRow
                         temp--;
                     } while (Occipied(temp));
                     placePiece(temp, player);
-                }
+                } 
                 Rules();
                 BoardFull();
                 Console.Clear();
